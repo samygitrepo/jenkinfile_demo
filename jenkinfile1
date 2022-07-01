@@ -1,0 +1,29 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build_Stage') {
+            steps {
+                echo 'Welcome to Build stage'
+            }
+        }
+        stage('Dev_Deploy_Stage') {
+            steps {
+                echo 'Welcome to Dev_Deploy_Stage GIT'
+            }
+        }
+        stage('Stage_Deploy_Stage') {
+            steps {
+                echo 'Welcome to Stage_Deploy_Stage GIT'
+            }
+        }
+        stage('Prod_Deploy_Stage') {
+            steps {
+                echo 'Welcome to Prod_Deploy_Stage GIT'
+                echo 'Welcome to Prod_Deploy_Stage1 GIT'
+                echo 'Welcome to Prod_Deploy_Stage2 GIT'
+                echo 'Welcome to Prod_Deploy_Stage3 GITGITGIT'
+            }
+        }
+    }
+}
