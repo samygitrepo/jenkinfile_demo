@@ -5,6 +5,8 @@ pipeline {
         stage('Build_Stage') {
             steps {
                 echo 'Welcome to Build stage'
+                echo 'Welcome to Build stage2'
+                echo 'Welcome to Build stage20'
             }
         }
         stage('Dev_Deploy_Stage') {
